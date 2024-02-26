@@ -6,7 +6,44 @@ body {
 .topo {
     background-color: black;
     color: blue;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     
+}
+.topo img {
+    width: 5%;
+}
+
+.topo a {
+    color: brown;
+}
+
+.produtos {
+    background-color: blue;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    padding-bottom: 20px;
+    width: 329px;
+    align-items: center;
+    
+}
+.produtos img {
+    width: 80%;
+
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.botao {
+    padding: 5px;
+    border-radius: 100px;
+    display: flex;
+    
+}
+.botao img{
+    width: 100px;
 }
