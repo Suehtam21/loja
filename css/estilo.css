@@ -8,7 +8,7 @@ body {
     color: blue;
     text-align: left;
     padding: 12px;
-    background-image: url(gi2.webp);
+    background-image: url(topo.jpg);
     background-size: 25%;
 }
 .logo {
@@ -26,13 +26,8 @@ body {
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
 .navegacao {
     display: flex;
-    list-style: none;
 }
 
 .menu {
@@ -61,40 +56,37 @@ main {
     color: black;
 }
 
-.produtos img {
-    width: 80%;
-
-}
-
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 20px;
 }
 
 .produtos {
     background-color: aqua;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-    width: 320px;
-    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtos p {
+    height: 180px;
+}
+.produtos img {
+    width: 100%;
 }
 
 .botao {
     background-color: aliceblue;
     color: black;
-    text-decoration: none;
     padding: 5px;
     display: inline;
     border-radius: 100px;
     font-size: 18px;
     border: 0;
 }   
-
-.botao img{
-    width: 100px;
-}
 
 .botao:hover{
     background-color: color-mix(in srgb, red 30%, gray 70%);
@@ -107,7 +99,7 @@ main {
         font-size: 18px;
     }
 
-    .materia h1 {
+    .produtos h1 {
         font-size: 30px;
     }
 }
